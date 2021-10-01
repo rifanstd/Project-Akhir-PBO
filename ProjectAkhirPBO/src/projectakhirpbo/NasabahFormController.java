@@ -406,9 +406,11 @@ public class NasabahFormController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+
         try {
             // TODO
-            nsdm = new NasabahDataModel("MYSQL");
+            nsdm = new NasabahDataModel("SQLITE");
+
             lbDBStatus.setText(nsdm.conn == null?"Tidak Terkoneksi":"Terkoneksi");
             btnBersihkanIndividu.fire();
             btnMuatUlangIndividu.fire();
@@ -458,7 +460,6 @@ public class NasabahFormController implements Initializable {
             btnDepositPerusahaan.setDisable(false);
             btnWithdrawPerusahaan.setDisable(false);
         });
-        
         
         
     }    
