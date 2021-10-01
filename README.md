@@ -16,6 +16,14 @@
 - Setiap nasabah dapat meiliki 1 atau lebih rekening
 - Sistem dapat digunakan untuk melakukan deposit dan tarik tunai pada rekening setiap nasabah
 
+## Cara Menggunakan Program Pada IDE Netbeans (IDE Lain dapat menyesuaikan)
+- Import project kedalam IDE Netbeans
+- Pada Folder Libraries pada project ini (di dalam IDE Netbeans) silahkan tambahkan JDBC untuk sqlite dan mysql
+- Cek pada Klik Kanan Project -> Properties -> Libraries jika terdapat Classpath yang broken reference, silahkan di hapus/remove
+- Clean and build project
+- Run
+- Selamat Menggunakan
+
 ## Design
 Untuk melihat Diagram dibawah ini silahkan install mermaid-diagram plugin pada https://github.com/Redisrupt/mermaid-diagrams 
 
