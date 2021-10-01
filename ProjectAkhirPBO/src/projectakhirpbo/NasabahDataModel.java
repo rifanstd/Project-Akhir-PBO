@@ -1,6 +1,6 @@
 package projectakhirpbo;
 
-import cobaprojectakhirpbo.db.DBHelper;
+import projectakhirpbo.db.DBHelper;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
